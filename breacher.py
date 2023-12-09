@@ -18,10 +18,11 @@ print('''
 
 ''')
 
-print("Breacher version 1.0\nAuthor: Hackachusetts")
-print("This program uses the 'haveibeenpwned API' in order to search multiple emails for data leaks.")
-print("The author is not responsible illegal actvity or misuse of this tool. Use wisely.")
-print("With great power comes great responsibilty.\n")
+print("""Breacher version 1.0
+Author: Hackachusetts
+This program uses the 'haveibeenpwned API' in order to search multiple emails for data leaks.
+The author is not responsible illegal actvity or misuse of this tool. Use wisely.
+With great power comes great responsibilty.\n""")
 
 API_KEY = getpass("Enter your api key:\n")
 
