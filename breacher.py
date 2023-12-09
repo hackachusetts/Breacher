@@ -25,7 +25,7 @@ print("With great power comes great responsibilty.\n")
 
 API_KEY = getpass("Enter your api key:\n")
 
-num_of_accounts = int(input("Enter the number of emails you'd like to search (max = 10)\n"))
+NUM_OF_ACCOUNTS = int(input("Enter the number of emails you'd like to search (max = 10)\n"))
 accounts = list()
 
 if num_of_accounts > 10:
